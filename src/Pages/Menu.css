@@ -1,0 +1,25 @@
+button {
+    height: 8vh;
+    width: 60vh;
+    font-size: xx-large;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 5px;
+    font-family:'Helvetica Neue',  sans-serif;
+
+}
+
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+}
+.card {
+    flex: 0 0 calc(50% - 10px); /* Set width for two cards with 10px margin */
+    max-width: calc(50% - 10px); /* Set maximum width for each card */
+    margin: 5px; /* Adjust margin as desired */
+  }
+
